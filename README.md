@@ -28,4 +28,5 @@ js para os scripts com um arquivo app.js. Onde deve ser copiado o código JavaSc
 <p>Um arquivo real-time-database.html e um arquivo real-time-database.js devem ser criados. No arquivo html deve ser feito
 um script com um link para o arquivo real-time-database.js</p>
 <p>O arquivo .js terá a função de pegar os dados via Javascript puro através do document.getElementById</p>
-<p></p>
+<p>O arquivo real-time-database.js um evento para o click do botão, que auando for disparado irá gravar os dados
+no database do Firebase.E outra função para atualizar a lista de usuários.</p>
