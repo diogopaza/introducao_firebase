@@ -17,5 +17,10 @@ configurar o Firebase no IOS, Android ou WEB na parte inferior da página tem os
 <p>Exemplo com NPM: npm install firebase --save, o --save vai adicionar uma depêndencia no arquivo package.json</p>
 <h3>Criando servidor HTTP</h3>
 <p>npm install http-server -g</p>
-<p>Este comando instala um pequeno servidor HTTP apenas para páginas estáticas</p>
+<p>Este comando instala um pequeno servidor HTTP apenas para páginas estáticas e o comando abaixo inicia o servidor.</p>
 <p>http-server -c1 = inicializa o servidor</p>
+<p>Também será criado duas pastas uma css para os estilos com um arquivo style.css e uma pasta
+js para os scripts com um arquivo app.js. Onde dece ser copiado o código JavaScript do Firebase</p>
+<p>Para dar uma apârencia melhor também será adicionado um link do bootstrap na index</p>
+<h2>Real-Time Database</h2>
+<p></p>
