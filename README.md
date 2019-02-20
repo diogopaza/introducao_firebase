@@ -20,9 +20,12 @@ configurar o Firebase no IOS, Android ou WEB na parte inferior da página tem os
 <p>Este comando instala um pequeno servidor HTTP apenas para páginas estáticas e o comando abaixo inicia o servidor.</p>
 <p>http-server -c1 = inicializa o servidor</p>
 <p>Também será criado duas pastas uma css para os estilos com um arquivo style.css e uma pasta
-js para os scripts com um arquivo app.js. Onde dece ser copiado o código JavaScript do Firebase</p>
+js para os scripts com um arquivo app.js. Onde deve ser copiado o código JavaScript do Firebase</p>
 <p>Para dar uma apârencia melhor também será adicionado um link do bootstrap na index</p>
 <h2>Real-Time Database</h2>
 <p>Tudo que está na tela vai pro Javascript e vai para o banco de dados isto é chamdo de Three Way Data Binding</p>
 <p>O Firebase trabalha com sockets, através de um aperto de mão a aplicação fica sempre conectada.</p>
+<p>Um arquivo real-time-database.html e um arquivo real-time-database.js devem ser criados. No arquivo html deve ser feito
+um script com um link para o arquivo real-time-database.js</p>
+<p>O arquivo .js terá a função de pegar os dados via Javascript puro através do document.getElementById</p>
 <p></p>
