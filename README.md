@@ -23,4 +23,6 @@ configurar o Firebase no IOS, Android ou WEB na parte inferior da página tem os
 js para os scripts com um arquivo app.js. Onde dece ser copiado o código JavaScript do Firebase</p>
 <p>Para dar uma apârencia melhor também será adicionado um link do bootstrap na index</p>
 <h2>Real-Time Database</h2>
+<p>Tudo que está na tela vai pro Javascript e vai para o banco de dados isto é chamdo de Three Way Data Binding</p>
+<p>O Firebase trabalha com sockets, através de um aperto de mão a aplicação fica sempre conectada.</p>
 <p></p>
