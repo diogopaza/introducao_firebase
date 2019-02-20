@@ -30,3 +30,6 @@ um script com um link para o arquivo real-time-database.js</p>
 <p>O arquivo .js terá a função de pegar os dados via Javascript puro através do document.getElementById</p>
 <p>O arquivo real-time-database.js um evento para o click do botão, que auando for disparado irá gravar os dados
 no database do Firebase.E outra função para atualizar a lista de usuários.</p>
+<h2>Autenticação no Firebase e Segurança</h2>
+<p>É possível permitir que apenas um domínio específico altere seu databse por exemplo, essa é uma das opções de segurança do Firebase</p>
+<p></p>
