@@ -28,3 +28,34 @@ createUserButton.addEventListener('click', function(){
         })
 
 })
+
+authEmailPassButton.addEventListener('click', function(){
+
+    firebase
+        .auth()
+        .signInWithEmailAndPassword(emailInput.value, passwordInput.value)
+        .then( function(result){
+            console.log(result)
+            displayName.innerText = "Bem vindo " + emailInput.value
+            alert('Autenticado ' + emailInput.value) 
+
+        })
+        .catch( function(error){
+            console.error(error.code)
+            console.error(error.message)
+            alert('Falha ao autenticar, verifique o erro no console')
+        })
+})
+
+logOutButton.addEventListener('click', function(){
+
+    firebase
+        .auth()
+        .signOut()
+        .then(function(){
+            displayName.innerText = "Você não está autenticado"
+        })
+        .catch( function(error){
+            console.log(error)
+        })
+})
