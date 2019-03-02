@@ -32,4 +32,7 @@ um script com um link para o arquivo real-time-database.js</p>
 no database do Firebase.E outra função para atualizar a lista de usuários.</p>
 <h2>Autenticação no Firebase e Segurança</h2>
 <p>É possível permitir que apenas um domínio específico altere seu databse por exemplo, essa é uma das opções de segurança do Firebase</p>
+<p>Autenticação via conta do Google, Facebook, GitHub com configuração simples e fácil de integrar com qualquer aplicação</p>
+<p>Arquivo authentication.js tem os códigos de autenticação</p>
+<h2>Storage no Firebase</h2>
 <p></p>
