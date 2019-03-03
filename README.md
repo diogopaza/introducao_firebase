@@ -38,4 +38,8 @@ no database do Firebase.E outra função para atualizar a lista de usuários.</p
 <p>Armazenamendo em cloud com Firebase. Serve para o armazenamento de arquivos e disponibiliza via http.</p>
 <p>É geodistribuido, facilitando o acesso para outras localidades. </p>
 <p>Muito bom para arquivos estáticos, como imagens dos usuários.</p>
+<p>Fornece grande flexibilidade para o aumento de usuários e arquivos, visto que é possível aumentar a quantintidade disponível para armazenamento sem mexer com a infraestrutura. Já que 
+estivesse trabalahndo com servidores fora da nuvem seria necessário aumentar o número de servidores.</p>
+<p>E também a alta disponibilidade</p>
+<h2>Hosting</h2>
 <p></p>
