@@ -42,4 +42,14 @@ no database do Firebase.E outra função para atualizar a lista de usuários.</p
 estivesse trabalahndo com servidores fora da nuvem seria necessário aumentar o número de servidores.</p>
 <p>E também a alta disponibilidade</p>
 <h2>Hosting</h2>
-<p></p>
+<p>Por ora serve para serviço de hospedagem simples para HTML, CSS. No momento não suporta 
+linguagens como PHP, Java e etc.</p>
+<p>npm install -g firebase-tools == instala serviços do Firebase</p>
+<p>firebase init == inicando novo projeto Firebase</p>
+<p>Por padrão a pasta public é a pasta visível do projeto.</p>
+<p>firebase deploy = envia os dados</p>
+<p>Nos testes o comando firebase deploy retornou um erro de autenticação, que foi resolvido da seguinte forma:
+</p>
+<p>firebase list == lista os projetos do Firebase</p>
+<p>firebase use nome_do_projeto == da permissoões de acesso para nosso usuário</p>
+<p>E por último o firebase deploy para enviar a aplicação para o Firebase</p>
