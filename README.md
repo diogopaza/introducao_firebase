@@ -35,4 +35,7 @@ no database do Firebase.E outra função para atualizar a lista de usuários.</p
 <p>Autenticação via conta do Google, Facebook, GitHub com configuração simples e fácil de integrar com qualquer aplicação</p>
 <p>Arquivo authentication.js tem os códigos de autenticação</p>
 <h2>Storage no Firebase</h2>
+<p>Armazenamendo em cloud com Firebase. Serve para o armazenamento de arquivos e disponibiliza via http.</p>
+<p>É geodistribuido, facilitando o acesso para outras localidades. </p>
+<p>Muito bom para arquivos estáticos, como imagens dos usuários.</p>
 <p></p>
